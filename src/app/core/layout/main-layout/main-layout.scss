@@ -1,16 +1,30 @@
 :host {
     section#about {
         padding-top: 3rem;
+        //background-color: var(--secondary);
+        position: relative;
+        z-index: 1;
     }
 
     section#projects {
         padding-top: 3rem;
         padding-bottom: 5rem;
+        //background-color: var(--secondary);
+        position: relative;
+        z-index: 1;
     }
 
     section#lab {
         padding-top: 3rem;
         padding-bottom: 5rem;
         background-color: var(--card-bg);
+        position: relative;
+        z-index: 1;
+    }
+
+    .parallax {
+        position: sticky;
+        top: 0;
+        z-index: 0;
     }
 }
