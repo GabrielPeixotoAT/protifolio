@@ -10,15 +10,6 @@
                     "style": "scss"
                 }
             },
-            "i18n": {
-                "sourceLocale": "pt",
-                "locales": {
-                    "en": {
-                        "translation": "src/locale/messages.en.xlf",
-                        "subPath": "en"
-                    }
-                }
-            },
             "root": "",
             "sourceRoot": "src",
             "prefix": "app",
@@ -57,20 +48,7 @@
                     },
                     "configurations": {
                         "production": {
-                            "budgets": [
-                                {
-                                    "type": "initial",
-                                    "maximumWarning": "500kB",
-                                    "maximumError": "1MB"
-                                },
-                                {
-                                    "type": "anyComponentStyle",
-                                    "maximumWarning": "4kB",
-                                    "maximumError": "8kB"
-                                }
-                            ],
-                            "outputHashing": "all",
-                            "localize": true
+                            "outputHashing": "all"
                         },
                         "development": {
                             "optimization": false,
